@@ -1,0 +1,246 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+
+Project:	Metrica
+Version:	1.0
+Last change:	
+Assigned to: 20/06/2016
+Primary use:
+	
+-------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------
+[Layout]
+
+* body
+
+	+ Global
+		- Padding/Margin
+		- OW pull-left/pull-right
+		- Section Padding
+	+ Fonts Settings
+		- Montserrat
+		- Open Sans
+	+ Header
+	+ Footer
+	+ Page Banner
+	
+	+ Responsive
+		- min-width: 1200
+		- min-width: 992
+		- max-width: 1366
+		- max-width: 1200
+		- min-width: 992 to max-width: 1200
+		- max-width: 991
+		- min-width: 768 to max-width: 991
+		- max-width: 767
+		- max-width: 639
+		- max-width: 479
+-------------------------------------------------------------------*/
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: #000;
+	background-color: #fff;
+	position: relative;
+}
+img {
+    max-width: 100%;
+	height: auto;
+}
+a {
+    outline: 0 !important;
+}
+h1,h2,h3,h4,h5,h6 {
+	word-wrap: break-word;
+}
+
+/* + Global */
+	/* - Padding/Margin */
+	.no-padding {
+		padding: 0;
+	}
+	.no-left-padding{
+		padding-left: 0;
+	}
+	.no-right-padding {
+		padding-right: 0;
+	}
+	.no-top-padding {
+		padding-top: 0;
+	}
+	.no-bottom-padding {
+		padding-bottom: 0;
+	}
+	.no-margin {
+		margin: 0;
+	}
+	.no-left-margin {
+		margin-left: 0;
+	}
+	.no-right-margin {
+		margin-right: 0;
+	}
+	.no-top-margin {
+		padding-top: 0;
+	}
+	.no-bottom-margin {
+		margin-bottom: 0;
+	}
+
+	/* - OW pull-left/pull-right */
+	.ow-pull-right {
+		float: right;
+	}
+	.ow-pull-left {
+		float: left;
+	}
+
+
+main {
+	overflow: hidden;
+}
+
+/* - Section Padding */
+.section-padding {
+	padding-bottom: 75px;
+	padding-top: 75px;
+}
+.padding-30 {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.padding-50 {
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+.padding-60 {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.padding-100 {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+/* - Page Bradcrumb */
+.page-breadcrumb {
+
+	padding: 20px 0;
+	text-align: center;
+}
+.page-breadcrumb .breadcrumb {
+	background-color: transparent;
+	margin-bottom: 0;
+	padding: 0;
+}
+.page-breadcrumb .breadcrumb li {
+	font-size: 25px;
+
+
+}
+.page-breadcrumb .breadcrumb li,
+.page-breadcrumb .breadcrumb li a,
+.page-breadcrumb .breadcrumb > li + li::before {
+	color: #ac2594;
+}
+
+/* - Section Header */
+.section-header {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 50px;
+}
+.section-header span {	
+	font-size: 20px;
+	color: #ac2594;
+	font-style: italic;
+}
+.section-header h3 {
+	font-family: 'open sans', sans-serif;
+	color: #ac2594;
+	font-weight: bold;
+	font-size: 25px;
+	text-transform: capitalize;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.section-header p {
+	font-size: 13px;
+	color: #727272;
+	line-height: 24px;
+	margin-bottom: 0;
+	padding: 0 10%;
+}
+.gray-bg {
+	background-color: #efefef !important;
+}
+
+.no-bg {
+	background: none !important;
+}
+.no-border {
+	border: none !important;
+}
+
+
+/* - Latest Post Widget */
+/*------------------------------------------------------------------
+	+ Responsive
+-------------------------------------------------------------------*/
+
+/* - min-width: 1200 */
+@media (min-width: 1200px) {
+	.container {
+		width: 1200px;
+	}	
+}
+
+/* - min-width: 992 */
+@media (min-width: 992px) {
+	.section-header p {
+		padding: 0 33%;
+	}
+}
+/* - max-width: 1366 */
+@media (max-width: 1366px) {	
+	
+}
+
+/* - max-width: 1200 */
+@media (max-width: 1200px) {	
+	
+}
+
+/* - min-width: 992 to max-width: 1200 */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+	
+}
+
+/* - max-width: 991 */
+@media (max-width: 991px) {	
+	
+}
+
+/* - min-width: 768 to max-width: 991 */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	
+}
+
+/* - max-width: 767 */
+@media (max-width: 767px) {
+	
+	
+}
+
+/* - max-width: 639 */
+@media (max-width: 639px) {
+	
+}
+
+/* - max-width: 479 */
+@media (max-width: 479px) {
+	
+}

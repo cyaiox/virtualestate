@@ -1,0 +1,20 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+
+Project: Metrica
+Version:	1.0
+Assigned to: 20/06/2016
+Last change: 
+Primary use:	
+-------------------------------------------------------------------*/
+
+@import "libraries/lib.css";
+@import "css/plugins.css";
+@import "css/navigation-menu.css";
+@import "css/fonts.css";
+@import "css/style.css";
+@import "css/header.css";
+@import "css/footer.css";
+@import "css/shortcode.css";
+@import "css/woocommerce.css";
+
